@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/f1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:onClick="changefragment"
+        android:text="@string/package1"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/f2_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changefragment"
+        android:text="@string/pac3"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/f3_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changefragment"
+        android:text="@string/pac2"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/f4_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changefragment"
+        android:text="@string/pac5"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+    <fragment
+        android:id="@+id/fgmntDefault"
+        android:name="com.example.sightseeen.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,376 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Project_Elephas</string>
+    <string name="payment">PAYMENT</string>
+    <string name="include_your_payment_details_here">Include Your Payment Details Here</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="nic">NIC</string>
+    <string name="card_no">Card No</string>
+    <string name="amount">Amount</string>
+    <string name="pay">Pay</string>
+
+
+    <string name="txtWelcome">Welcome to Elephas Vacations</string>
+    <string name="txtUserName">User Name</string>
+    <string name="txtPassword">Password</string>
+    <string name="txtSignIn">Sign in</string>
+    <string name="txtHello">Hello!</string>
+    <string name="txtEnterRequirements">Enter Requirements</string>
+    <string name="txtViewPackage">View Submitted</string>
+    <string name="txtElephasVacations">Elephas Vacations</string>
+    <string name="txtManageInfoTours">Manage Information For Tours</string>
+    <string name="txtUnconfirmedTours">Unconfirmed Tours</string>
+    <string name="txtConfirmedTours">Confirmed Tours</string>
+    <string name="txtCompletedTours">Completed Tours</string>
+    <string name="txtViewCustomerRequirements">View Customer Requirements</string>
+    <string name="txtCustomerRequirements">Customer Requirements</string>
+    <string name="txtNamee">Name</string>
+    <string name="txtArrivalDate">Arrival Date</string>
+    <string name="txtDepartureDate">Departure Date</string>
+    <string name="txtNationality">Nationality</string>
+    <string name="txtNoOfPeople">No Of People</string>
+    <string name="txtNoOfDays">No of Days</string>
+    <string name="txtStarCategory">Star Category for Accommodation</string>
+    <string name="txtRemarks">Remarks</string>
+    <string name="txtSave">Save</string>
+    <string name="txtCancel">Cancel</string>
+    <string name="txtHotelDetailsManagement">Hotel Details Management</string>
+    <string name="txtSightSeeingCostManagement">Sight Seeing Cost Management</string>
+    <string name="txtAdditionalCostsManagement">Additional Costs Management</string>
+    <string name="txtManageToursText">You can add, change or delete costs and use these data for costing.</string>
+    <string name="txtRegister">You can create a new account here.</string>
+    <string name="txtReTypePassword">Re-Type Password</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtRegisterButton">Register</string>
+    <string name="txtRegisterForLoginScreen">Don\'t have an account? Click here</string>
+    <string name="title_activity_customer_view_list_of_req">CustomerViewListOfReqActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <string name="txtListOfRequirement">List of Requirements</string>
+
+
+    <string name="app_name_dula">Sight Seeen</string>
+
+    <string name="diver_guide_cost"><![CDATA[Diver & Guide Cost]]></string>
+    <string name="additional_costs">Additional Costs</string>
+    <string name="transportation_cost">Transportation Cost</string>
+    <string name="payament_invoice">Payament Invoice</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="manage_payments">Manage Payments</string>
+    <string name="tours">Tours</string>
+    <string name="gross_millege">Gross Mileage</string>
+    <string name="extra_mileage">Extra Mileage</string>
+    <string name="total_mileage">Total Mileage</string>
+    <string name="charge_per_km_lkr">Charge per Km LKR</string>
+    <string name="total_cost_in_usd">Total cost in USD</string>
+    <string name="driver_guide_costs"><![CDATA[Driver & Guide Costs]]></string>
+    <string name="drivers_bata_lkr">Drivers Bata LKR</string>
+    <string name="guide_fee_lkr">Guide Fee LKR</string>
+    <string name="total_in_lkr">Total in LKR</string>
+    <string name="total_in_usd">Total in USD</string>
+    <string name="transport_cost">Transport Cost</string>
+    <string name="transport_cost_management">Transport Cost Management</string>
+    <string name="driver_guide_cost_management"><![CDATA[Driver & Guide cost Management]]></string>
+    <string name="driver_guide_cost_management_all"><![CDATA[Driver & Guide Cost Management]]></string>
+    <string name="passport_number">Passport Number</string>
+    <string name="calculate_save"><![CDATA[Calculate & save]]></string>
+    <string name="txtName">Name</string>
+    <string name="txtUpdate">Update</string>
+    <string name="txtDelete">Delete</string>
+    <string name="txtID">Requirement ID:</string>
+    <string name="lblName">Name           : </string>
+    <string name="lblNationality">"Nationality       : "</string>
+    <string name="lblNoOfPeople">"NoOfPeople     : "</string>
+    <string name="lblNoOfDays">"NoOfDays         : "</string>
+    <string name="lblArrivalDate">"ArrivalDate       : "</string>
+    <string name="lblDepartureDate">"DepartureDate : "</string>
+    <string name="lblStarCategory">"StarCategory   : "</string>
+    <string name="lblRemark">"Remark             : "</string>
+    <string name="lblCustomerID">Customer ID     :</string>
+    <string name="txtPhone">Phone</string>
+    <string name="txtPassPortNo">Passport No</string>
+    <string name="txtUser">USER</string>
+    <string name="txtAdmin">ADMIN</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtNIC">NIC</string>
+    <string name="txtAdminPassword">Admin Password</string>
+    <string name="txtLoginAdditional">Admins: Use your NIC / Email as login credentials</string>
+    <string name="txtLoginHintForUserOrAdminID">Passport / Email</string>
+    <string name="txtCustomerReqUpdateDelete">Enter your requirements below</string>
+    <string name="txtPassPortDisplay">Passport No :</string>
+    <string name="txtNationalityDisplay">Nationality :</string>
+    <string name="txtSampleDataForRequirementID">Sample Requirement ID 1</string>
+    <string name="txtSampleDataForPassPort">SLXXX1</string>
+    <string name="txtSampleDataForNationality">Indian</string>
+
+
+    // notification - Dhanusha
+    <string name="channel_name">Labsheet4</string>
+    <string name="channel_description">Channel for the notification</string>
+
+>>>>>>> origin/master
+    <string name="mainpagelable1"><![CDATA[Sight Seen Coast & Other Coast Packages]]></string>
+    <string name="page1but1">Sight Seen</string>
+    <string name="pageonebut2">Other Coast Details</string>
+    <string name="sightseenpagelab1">Sight Seen</string>
+    <string name="sightseenpagebut1">Add New Sight</string>
+    <string name="sightseenpagebut2">Sight Seen Details</string>
+    <string name="sightseenpagebut3">Sight Senn Rules</string>
+    <string name="ansl1">Add New Sight</string>
+    <string name="sightno">Sight No</string>
+    <string name="sihtnotext">sight no</string>
+    <string name="sightnohint">sight no</string>
+    <string name="sightname">Sight Name</string>
+    <string name="sightnamehint">enter name</string>
+    <string name="snohint">enter sight no</string>
+    <string name="childticketprice">Ticket Price For Per One Child(Age bellow 12 year)</string>
+    <string name="ticketpriceauld">Ticket Price For  Adult</string>
+    <string name="childticketpricehint">enter price</string>
+    <string name="auldticketpricehint">enter price</string>
+    <string name="addsightpagebut1">Save</string>
+    <string name="ruleslabel1">Sight Seen Rules</string>
+    <string name="rule1">What To Wear</string>
+    <string name="rule1dis">Cotton clothes are useful at any time of the year but you will need light woollens for the hills and waterproof clothing or an umbrella.Modest dress for women is advisable especially off the beach and when visiting religious sites. Don\'t forget comfortable shoes, sandals or trainers and cotton socks. If you are planning to trek and climb go prepared with suitable gear. Water sports enthusiasts would do well to take their snorkels and diving equipment along.</string>
+    <string name="next1"><![CDATA[Next>>]]></string>
+    <string name="ssr2">Sight Seen Rules</string>
+    <string name="r2">Health Precautions</string>
+    <string name="rd2">The health risks in Sri Lanka are different to those encountered in Europe and North America. Watch out for bowel diseases such as diarrhoea and amoebic dysentery, vector borne diseases such as malaria and dengue fever, and a variety of fungal infections. Sri Lanka.s physicians, though, many of whom have trained in the West, are particularly experienced in dealing with locally occurring diseases.</string>
+    <string name="n2"><![CDATA[Next>>]]></string>
+    <string name="previousb1"><![CDATA[<<Previous]]></string>
+    <string name="previous2"><![CDATA[<<Previous]]></string>
+    <string name="rulepage3">Sight Seen Rules</string>
+    <string name="rule3">Banks</string>
+    <string name="ruled3">Banks are open from 0900 hrs to 1300 hours Monday to Friday. Some city banks close at 1500 hrs, while some are open on Saturday mornings. It.s easy to withdraw money across the island at ATMs using international credit cards or debit cards.</string>
+    <string name="previous3"><![CDATA[<<Previous]]></string>
+
+
+
+    <string name="title">Title</string>
+    <string name="next4"><![CDATA[Next>>]]></string>
+    <string name="f1">Fragment1</string>
+    <string name="f2">Fragment2</string>
+    <string name="ms1">This is fragment 1</string>
+    <string name="ms2">This is fragment 2</string>
+>>>>>>> origin/master
+    <string name="basicrule">Sight Seen Rule</string>
+    <string name="basicrule1"><![CDATA[Photo Permits & Entrance Charges]]></string>
+    <string name="basicruled1">Sri Lanka is a photographer’s delight. However, permits are required before you can take photos at certain sites. Entrance tickets to individual sites are available only from 6 a.m. to 10 a.m. These tickets cover charges for photography, recording and parking.Rates are quoted in US Dollars and rupee parities are subject to fluctuation.</string>
+    <string name="previous6"><![CDATA[<<Previous]]></string>
+    <string name="next6"><![CDATA[Next>>]]></string>
+    <string name="basicrule2"><![CDATA[Photography, Restrictions & Permits]]></string>
+    <string name="brule2">Sight Seen Rules</string>
+    <string name="rule2"><![CDATA[Photography, Restrictions & Permits]]></string>
+    <string name="br2">Sri Lanka is a tremendously photogenic island, so it.s hardly surprising that most tourists bring a camera of some kind when they visit the country. The stunning landscapes, the captivating fauna and lush flora, and the stupendous archaeological remains provide great opportunities: a bonus is that Sri Lankans love to be captured on film. So it.s easy to capture the traditional rural lifestyle. You.ll find villagers, farmers, fishermen and tea pluckers will readily stand in front of your viewfinder. Your subjects will often ask to have a copy of picture sent to them. This may be laborious, but it is a reasonable courtesy as many may never have seen a picture of themselves. It is also understandable that many will also expect a token recompense for allowing themselves to be photographed.</string>
+    <string name="next7"><![CDATA[Next>>]]></string>
+    <string name="previous7"><![CDATA[<<Previous]]></string>
+    <string name="pre2"><![CDATA[<<Previous]]></string>
+    <string name="tprice">Sight Seen Ticket Price</string>
+    <string name="tpricechiled">Per-Chiled</string>
+    <string name="ticketpricperauld">Per-Auld</string>
+    <string name="dialogmas">Do you want to save this new sight?</string>
+    <string name="othercostlabel1">Other Cost Details</string>
+    <string name="otherbut1">Other Package Details</string>
+    <string name="otherbut2">Add New Package</string>
+    <string name="add_new_cost_packages">Add New Cost Packages</string>
+
+    <string name="package_no1" tools:ignore="DuplicateDefinition">Package No</string>
+
+
+    <string name="package_name1">Package Name</string>
+    <string name="package_price1">Package Price</string>
+    <string name="add_new_package1">Add New Package</string>
+    <string name="package_no2">Package No</string>
+    <string name="package_name2">Package Name</string>
+    <string name="package_price2">Package Price</string>
+    <string name="package_description2">Package Description</string>
+    <string name="pno1">Package NO</string>
+    <string name="pname1">Package Name</string>
+    <string name="dis">Package Description</string>
+    <string name="pprice">Package Price</string>
+    <string name="anewpackage">Add New Cost Package</string>
+    <string name="msgforsightdetails">This page shows the details about the sight seen tickets price.</string>
+    <string name="multext1">After conecting the Data Base ,this page take the data from data base and create sights seen ticket prices.</string>
+    <string name="msg22">After creating the Data Base,this page take data from the data base and create COUSTOM LISTVIEW layout. This page will auto genarate according to data base data.</string>
+    <string name="otherpacmsg">This page shows the details about the other cost package details. Ex-Birth day party packages Valantime packages wedding packages Sim card offers Medical packages... This packages auto genarate by geting details from the Data Base. So with out creating Data Base this page can not see now.To create this page i will use CUSTOM LISTVIEW layout.</string>
+    <string name="othercostmsg1">This page shows the details about the other cost package details. Ex-Birth day party packages,Valantine packages,wedding packages,Sim card offers,Medical packages... This packages auto genarate by geting details from the Data Base. So with out creating Data Base this page can not see now.To create this page i will use CUSTOM LISTVIEW layout.</string>
+    <string name="othercostmseg1">This page shows the details about the other cost package details. Ex-Birth day party packages,Valantine packages,wedding packages,Sim card offers,Medical packages... This packages auto genarate by geting details from the Data Base. So with out creating Data Base this page can not see now.To create this page i will use CUSTOM LISTVIEW layout.</string>
+
+    <string name="show">Show</string>
+    <string name="updatebtn">Update</string>
+    <string name="deletebutn">Delete</string>
+    <string name="sellectall">Sellect All</string>
+    <string name="sellectallbut">Select all Other Packages</string>
+    <string name="updatebut3">Update</string>
+    <string name="deletepackages">Delete</string>
+    <string name="newvewall">View All Packages</string>
+    <string name="search">Search</string>
+    <string name="etailscrud">DEtails for new admin about how to insert,delete and update details</string>
+    <string name="packagenonew">Package No(Enter Integer No)</string>
+    <string name="otherpackagemenu">Other Package Menue</string>
+    <string name="ode">Other Package details with price and Add new Packages</string>
+    <string name="dinerpac">Dinner Packages</string>
+    <string name="bdyapac">B\'Day Packages</string>
+    <string name="fm1">changeFragment</string>
+    <string name="package1">B\'Day Party Packeges</string>
+    <string name="pac2">Wedding Packages</string>
+    <string name="pac3">Dinner Packages</string>
+    <string name="pac5">Medecine Packages</string>
+    <string name="b1">B\'Day Party Packages</string>
+    <string name="pa1">B\'DAy Party Packages</string>
+    <string name="p11">BBHJ\nguh\nffcgvhbjkl</string>
+    <string name="pacd1">B\'Day Pary Packages \n 5 person package - 2500 \n 10 person package - 3500 \n 15 person package - 7500 \n 25 person package 12000 \n 30 person package - 20000 \n</string>
+    <string name="pfd1">\n\nB\'Day Pary Packages \n  \n 5 person package - 2500 \n \n 10 person package - 3500 \n \n 15 person package - 7500 \n \n 25 person package - 12000 \n\n 30 person package - 20000 \n\n</string>
+    <string name="pf2">"\n \n Dinner Packages \n \n \n  outdoor  5 person package - 85000 \n \n outdoor  10  person package - 12000 \n \n outdoor  15 person package - 15000 \n \n outdoor  20 person package - 20000 \n \n Indoor 5 person package - 75000 \n \n Indoor 10 person package - 12000 \n \n  "</string>
+    <string name="pacwed">Wedding pacakages \n \n \n  10 person package - 25000 (With offers) \n \n  20 person package - 35000 \n \n Special Gift(Ring) - 125000 \n \n Special gift(Ring with gold) - 10000\n\n</string>
+    <string name="medpac">"Medicine Packages \n \n  Chaneling a doctor - 1500 \n \n Basic Medicine Package For Month (4 Person ) - 3000 \n \n Hospital charges for per person for one day - 1000\n \n "</string>
+    <string name="sightmenu">Our Avalable Sight Seens  Packages in Sri Lanka</string>
+    <string name="bsa">Show All</string>
+    <string name="newsigno">Enter Sight No(Integer No)</string>
+    <string name="nweshow">Add</string>
+    <string name="dadmin">Details For New Admin</string>
+    <string name="selall">Select All</string>
+    <string name="adname">Enter Admin Name</string>
+    <string name="adminsing">Sing In</string>
+    <string name="cannotaccsses">All the users can not access this page.Admins onlly can access this page.</string>
+    <string name="admsg">Admins of Elephas App can access this page and they can add new sight seen packages.\nIf You are admin,you can sign in.Then send a notification to your mobile.Thorough that notification you can access the Add New sight Seen Page and add new Sight Seen details.</string>
+    <string name="back"><![CDATA[<<Back]]></string>
+    <string name="nback"><![CDATA[<< Back]]></string>
+    <string name="mdgothercost">Admins of Elephas App can access this page and they can add new other cost packages.\nIf You are admin,you can sign in.Then send a notification to your mobile.Thorough that notification you can access the Other Cost package  Page and add new Other Cost Package details.</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="Add_New">Add New</string>
+
+    <string name="edit">Edit Contact</string>
+
+    <string name="delete">Delete Contact</string>
+
+    <string name="title_activity_display_hotel">DisplayHotel</string>
+
+
+    <string name="phone">Phone</string>
+
+    <string name="email">Email</string>
+
+    <string name="starclass">Star class</string>
+
+    <string name="single">Single</string>
+
+    <string name="Double">Double</string>
+
+    <string name="triple">Triple</string>
+
+    <string name="king">King</string>
+
+    <string name="quard">Quard</string>
+
+    <string name="queen">Queen</string>
+
+    <string name="roomonly">Roon Only</string>
+
+    <string name="bedandbreackfast">Bed and Breackfast</string>
+
+    <string name="fullboard">Full Board</string>
+
+    <string name="halfBoard">Half Board</string>
+
+    <string name="submit">Save Hotel</string>
+
+    <string name="deleteHotel">Are you sure, you want to delete it.</string>
+
+    <string name="yes">Yes</string>
+
+    <string name="no">No</string>
+
+
+</resources>

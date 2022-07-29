@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activities.Payment_manage">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="PAYMENT MANAGER"
+        android:textColor="@color/colorBackground"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:helperText="Select the payment ID"
+                android:textColorHint="@color/colorText">
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/spinnerPayments"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="23dp"
+                android:background="@color/colorAccent"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="@string/name" />
+
+                <TextView
+                    android:id="@+id/pay_name"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="@string/txtEmail" />
+
+                <TextView
+                    android:id="@+id/pay_email"
+                    android:layout_width="200dp"
+                    android:layout_height="38dp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="@string/address" />
+
+                <TextView
+                    android:id="@+id/pay_address"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="@string/passport_number" />
+
+                <TextView
+                    android:id="@+id/pay_Nic"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:textColor="@color/colorText"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="@string/amount" />
+
+                <TextView
+                    android:id="@+id/pay_amount"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="@string/card_no" />
+
+                <TextView
+                    android:id="@+id/pay_card"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:inputType="text"
+                    android:textColor="@color/colorText"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="Status" />
+
+                <TextView
+                    android:id="@+id/pay_status"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorPrimaryDark" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/pay_verify"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Verify"
+                    android:textColor="@color/colorBackground"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:id="@+id/pay_refund"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Refund"
+                    android:backgroundTint="@color/colorAccent"
+                    android:textColor="@color/colorBackground"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

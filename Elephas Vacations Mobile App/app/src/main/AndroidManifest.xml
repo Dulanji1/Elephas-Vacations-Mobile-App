@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sliit.project_elephas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".test"></activity>
+        <activity android:name=".other_packages" />
+        <activity android:name=".other_cost_details" />
+        <activity android:name=".sight_seen_rules" />
+        <activity android:name=".sight_seen_basic_rule2" />
+        <activity android:name=".sight_seen_basic_rule" />
+        <activity android:name=".sight_seen_details_page" />
+        <activity android:name=".add_new_sight" />
+        <activity android:name=".sightseen" />
+        <activity android:name=".Main_Activity_Dula" />
+        <activity android:name=".activities.Activity_man_cost_mange"></activity>
+        <activity android:name=".activities.Activity_transport_manage" />
+        <activity android:name=".activities.Activity_manage_cost" />
+        <activity android:name=".activities.Activity_man_cost" />
+        <activity android:name=".activities.Activity_transport" />
+        <activity android:name=".activities.all_customer_payments" />
+        <activity android:name=".CutomerRequirementUpdateDeleteActivity" />
+        <activity android:name=".AdminViewListOfCustomerRequirementActivity" />
+        <activity
+            android:name=".CustomerViewListOfReqActivity"
+            android:label="@string/title_activity_customer_view_list_of_req"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".CustomerReqGatheringActivity" />
+        <activity android:name=".AfterLoginCustomerActivity" />
+        <activity android:name=".AfterLoginActivityAdminView" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Payment_manage" />
+        <activity android:name=".activities.Payment" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

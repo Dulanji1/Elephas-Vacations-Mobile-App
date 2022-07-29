@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CutomerRequirementUpdateDeleteActivity">
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/txtDelete"
+        app:backgroundTint="@color/design_default_color_error"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button16"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRemark" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="104dp"
+        android:layout_height="94dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:contentDescription="@string/txtElephasVacations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/textView14"
+        app:srcCompat="@drawable/elephas_icon" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="217dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/txtElephasVacations"
+        android:textSize="24sp"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="200dp"
+        android:layout_height="27dp"
+        android:text="@string/txtCustomerRequirements"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/editTextRemark"
+        android:autofillHints="remark"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="@string/txtRemarks"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/button17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextStarCategory" />
+
+    <EditText
+        android:id="@+id/editTextDepartureDate"
+        android:autofillHints="departure date"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="@string/txtDepartureDate"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/editTextStarCategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextArrivalDate" />
+
+    <EditText
+        android:id="@+id/editTextArrivalDate"
+        android:autofillHints="arrival date"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="@string/txtArrivalDate"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/editTextDepartureDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNoDays" />
+
+    <EditText
+        android:id="@+id/editTextNoDays"
+        android:autofillHints="No of days"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="@string/txtNoOfDays"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextArrivalDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNoPeople" />
+
+    <EditText
+        android:id="@+id/editTextNoPeople"
+        android:autofillHints="No of people"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="@string/txtNoOfPeople"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNoDays"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <EditText
+        android:id="@+id/editTextStarCategory"
+        android:autofillHints="star category for accommodation"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="@string/txtStarCategory"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextRemark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDepartureDate" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/txtUpdate"
+        app:backgroundTint="@color/design_default_color_secondary_variant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button17"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRemark" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtID"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textViewRequirementID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:text="@string/txtSampleDataForRequirementID"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textViewPassport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSampleDataForPassPort"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textViewRequirementID" />
+
+    <TextView
+        android:id="@+id/textViewNationality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtSampleDataForNationality"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewPassport"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPassport" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtPassPortDisplay"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtNationalityDisplay"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtCustomerReqUpdateDelete"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNationality" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
